@@ -15,6 +15,10 @@ npm.cmd run dev
 
 Open the localhost URL printed by Vite. For a production build, run `npm run build`; serve the generated `dist` folder over HTTP. Run deterministic data and movement checks with `npm test` (Node 22.6 or newer).
 
+## Slide demo clips
+
+Run `npm run record:demos` to launch a temporary local Vite server, seed isolated fictional browser data, and record the three Slide 17–19 interaction clips in `demo-clips/`. The script measures the `.phone` DOM container at a 2× device scale, overlays a tap indicator, maps that box to Playwright's viewport-pixel WebM, and scales the cropped result to device-pixel dimensions. It encodes PowerPoint-compatible H.264 MP4 files with FFmpeg and removes temporary WebM recordings when finished. Playwright and `ffmpeg-static` are installed as development dependencies.
+
 ## Scenario walkthrough with fictional personas
 
 Open **Profile → Scenario walkthrough with fictional personas**. Each persona has one continuous progress bar. Playback moves automatically from Sam to Alex to Jamie, then starts over.
@@ -84,6 +88,7 @@ Open a personal conversation from Chats and select **Meet f2f** in its header (a
 ## Responsive phone layout
 
 Phone screens use the full available viewport with notch and home-indicator insets, fluid side spacing, larger touch controls, and 16px form text. Short screens keep the main actions and message composer visible while content scrolls inside the app. Landscape phones show campus controls beside the room and navigation along the right edge. Character chat avoids that navigation rail. Desktop keeps its framed layout.
+The desktop phone mockup is 518px wide and up to 920px tall. At narrower browser widths, it shrinks to fit or uses the full viewport.
 
 Browser viewport checks cover widths from 320 to 440px, landscape sizes from 568?320 to 932?430, and the desktop frame in Chromium and WebKit. Real iOS and Android keyboard behavior should also be checked on devices.
 

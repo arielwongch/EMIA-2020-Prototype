@@ -286,11 +286,17 @@
 .phone[data-session="demo"]>.overlay>.dialogue{max-height:100%}
 .phone[data-session="demo"] .level-toast{top:var(--demo-content-top)}
 
+.draft-conversation{display:flex;align-items:center;min-height:44px;margin-top:12px;padding:8px 12px;border:1px solid #bbcdaa;border-radius:9px;background:#fbfcf4;color:#4f7154;font-size:13px}
+.meet-readonly-note{padding:9px 11px;border:1px solid #dce5d2;border-radius:9px;background:#f4f6ed;color:#64765d!important;font-size:11px!important}
+.forum-author-avatar{display:grid;place-items:center;flex-shrink:0;padding:0;border:0;border-radius:9px;background:transparent}
+.forum-author-name{padding:0;text-align:left;font:inherit;font-weight:inherit;color:inherit}
+.forum-author-avatar:focus-visible,.forum-author-name:focus-visible{outline:2px solid #91a382;outline-offset:3px}
+
 .demo-scenario-panel{display:none}
 @media (min-width:1024px){
  .desktop-stage.demo-stage{
   display:grid;
-  grid-template-columns:minmax(0,400px) minmax(430px,560px);
+  grid-template-columns:minmax(0,520px) minmax(0,360px);
   column-gap:clamp(32px,4vw,64px);
  }
  .demo-stage>.phone{justify-self:center}
@@ -319,3 +325,7 @@
  .demo-scenario-steps ul{margin:0;padding:0;list-style:none;color:#52664e}
  .demo-scenario-steps li{padding:7px 6px;line-height:1.35}
 }
+
+.phone{width:518px}
+@media (min-width:501px) and (max-width:558px){.phone{width:calc(100vw - 40px);margin-inline:auto}}
+@media (max-width:500px){.phone{width:100%}}

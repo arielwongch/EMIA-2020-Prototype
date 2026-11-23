@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 400 160" shape-rendering="crispEdges" role="img" aria-labelledby="title description">
+  <title id="title">Sitting Near Others Without Starting a Conversation</title>
+  <desc id="description">Two adjacent pixel-art campus seats and a quiet speech bubble represent sitting near classmates without starting a conversation. No people are shown.</desc>
+  <path d="M66 103h268v12H66zM58 115h284v10H58z" fill="#41666b"/>
+  <path d="M66 103h268v5H66z" fill="#d6ac58"/>
+  <path d="M88 125h10v19H88zm226 0h10v19h-10z" fill="#d6ac58"/>
+  <path d="M79 144h28v5H79zm208 0h28v5h-28z" fill="#41666b"/>
+  <path d="M91 46h58v9h-58zM84 55h72v37H84z" fill="#849bba"/>
+  <path d="M229 46h58v9h-58zM222 55h72v37h-72z" fill="#709988"/>
+  <path d="M105 64h16v20h-16zm47 0h16v20h-16zM250 64h16v20h-16zm47 0h16v20h-16z" fill="#d6ac58"/>
+  <path d="M165 27h62v6h6v25h-6v6h-24v12h-6V64h-32v-6h-6V33h6z" fill="#fffdf1" stroke="#41666b" stroke-width="3"/>
+  <path d="M181 40h6v6h-6zm14 0h6v6h-6zm14 0h6v6h-6z" fill="#41666b"/>
+</svg>

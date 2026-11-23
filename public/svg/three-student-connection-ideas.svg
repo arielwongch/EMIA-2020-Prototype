@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 120 90" shape-rendering="crispEdges" role="img" aria-labelledby="title description">
+  <title id="title">Three Students Using Connection Prototypes</title>
+  <desc id="description">Three pixel-art students each use a different connection concept: two matched phones, a green social availability card on a shirt, and smart glasses with shared-interest cues. Transparent background, with no slide text or panels.</desc>
+  <defs>
+    <g id="matching-student">
+      <ellipse cx="36" cy="69" rx="19" ry="3" fill="#344a3422"/>
+      <path d="M25 53h8v15H22v-5h3m14-10h8v15h-11v-5h3" fill="#575c60"/>
+      <path d="M21 38h29v22H21zM15 43h6v13h-6m35-13h6v13h-6" fill="#849bba"/>
+      <path d="M20 15h30v28H20zM16 22h4v15h-4m34-15h4v15h-4" fill="#e7b58c"/>
+      <path d="M19 12h32v13H35v-5H19Z" fill="#d79a62"/>
+      <path d="M27 27h4v5h-4m13-5h4v5h-4" fill="#36433c"/>
+      <path d="M22 39h5v2h-5m19-2h5v2h-5" fill="#f3d3ad"/>
+      <path d="M29 44h14v2H29m-1 12h16v2H28" fill="#66829d"/>
+    </g>
+    <g id="availability-student">
+      <ellipse cx="36" cy="69" rx="19" ry="3" fill="#344a3422"/>
+      <path d="M25 53h8v15H22v-5h3m14-10h8v15h-11v-5h3" fill="#575c60"/>
+      <path d="M21 38h29v22H21zM15 43h6v13h-6m35-13h6v13h-6" fill="#d6ac58"/>
+      <path d="M20 15h30v28H20zM16 22h4v15h-4m34-15h4v15h-4" fill="#b98669"/>
+      <path d="M16 14h38v33h-7V23H24v24h-8Z" fill="#293b3a"/>
+      <path d="M27 27h4v5h-4m13-5h4v5h-4" fill="#36433c"/>
+      <path d="M22 39h5v2h-5m19-2h5v2h-5" fill="#d7a07e"/>
+      <path d="M29 44h14v2H29m-1 12h16v2H28" fill="#c39b4e"/>
+    </g>
+    <g id="glasses-student">
+      <ellipse cx="36" cy="69" rx="19" ry="3" fill="#344a3422"/>
+      <path d="M25 53h8v15H22v-5h3m14-10h8v15h-11v-5h3" fill="#575c60"/>
+      <path d="M21 38h29v22H21zM15 43h6v13h-6m35-13h6v13h-6" fill="#709988"/>
+      <path d="M20 15h30v28H20zM16 22h4v15h-4m34-15h4v15h-4" fill="#e7b58c"/>
+      <path d="M19 12h32v13H35v-5H19Z" fill="#715e4d"/>
+      <path d="M17 25h14v10H17zm19 0h14v10H36zm-5 3h5" fill="none" stroke="#455851" stroke-width="2"/>
+      <path d="M22 39h5v2h-5m19-2h5v2h-5" fill="#f3d3ad"/>
+      <path d="M29 44h14v2H29m-1 12h16v2H28" fill="#5f8777"/>
+    </g>
+  </defs>
+
+  <g transform="translate(-9 18) scale(.82)">
+    <use href="#matching-student"/>
+    <path d="M43 43h9v16h-9zM53 43h9v16h-9z" fill="#293b3a"/>
+    <path d="M44 45h7v12h-7zM54 45h7v12h-7z" fill="#fffdf1"/>
+    <path d="M45 47h5v1h-5zm0 2h4v1h-4zm10-2h5v1h-5zm0 2h4v1h-4z" fill="#41666b"/>
+    <path d="M46 52h4v3h-4zm10 0h4v3h-4z" fill="#72a98e"/>
+    <path d="M48 38h2v-2h4v2h2v4h-2v2h-2v2h-2v-2h-2v-2h-2v-4z" fill="#c9473d"/>
+  </g>
+
+  <g transform="translate(31 18) scale(.82)">
+    <use href="#availability-student"/>
+    <path d="M37 41h8v9h-8z" fill="#72a98e" stroke="#fffdf1" stroke-width=".8"/>
+    <path d="M39 44h2v2h-2zm3 0h1v3h-1z" fill="#fffdf1"/>
+  </g>
+  <path d="M55 15h12v1h2v6h-2v1h-5v2h-2v-2h-5v-1h-2v-6h2z" fill="#fffdf1" stroke="#41666b" stroke-width=".5"/>
+  <path d="M58 18h2v2h-2zm4 0h2v2h-2z" fill="#41666b"/>
+
+  <g transform="translate(71 18) scale(.82)">
+    <use href="#glasses-student"/>
+    <path d="M26 2h14v10H26z" fill="#fffdf1" stroke="#41666b" stroke-width=".7"/>
+    <path d="M29 5h4v4h-4zM35 5h3v1h-3zm0 2h2v1h-2z" fill="#72a98e"/>
+    <path d="M45 12h13v9H45z" fill="#fffdf1" stroke="#d6ac58" stroke-width=".7"/>
+    <path d="M48 15h4v3h-4zm6 0h2v1h-2zm0 2h2v1h-2z" fill="#c9473d"/>
+  </g>
+</svg>

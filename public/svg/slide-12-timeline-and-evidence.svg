@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="450" viewBox="0 0 120 90" shape-rendering="crispEdges" role="img" aria-label="Slide 12: Firebird leaping along a project timeline">
+  <title>Slide 12 — Prototype Timeline and Evidence</title>
+  <defs>
+    <path id="tail" d="M27 56 23 69l11-5 3 8 6-14Z" fill="#ad4039"/>
+    <path id="legL" d="M22 61h11v8H18v-4h4" fill="#d6ac58"/>
+    <path id="legR" d="M42 61h11v8H38v-4h4" fill="#d6ac58"/>
+    <g id="wingL"><path d="M15 32H8v5H3v11h5v9h11l6-17Z" fill="#c9473d"/><path d="M9 43h4v9H9" fill="#9f3b36" opacity=".5"/></g>
+    <g id="wingR"><path d="M55 32h9v5h5v11h-5v9H53l-7-17Z" fill="#c9473d"/><path d="M61 43h3v9h-3" fill="#9f3b36" opacity=".5"/></g>
+    <g id="body">
+      <path d="M25 17h22v5h8v7h5v22h-4v8h-8v5H24v-5h-8v-8h-4V32h5v-9h8Z" fill="#c9473d"/>
+      <path d="M28 19 25 9l3-6-1-3 9 6-1 11 5-6 3 7 5-6-2 12Z" fill="#e3aa4f"/>
+      <path d="M28 23h8v3h-8M45 25h5v2h-5" fill="#ef8570" opacity=".6"/>
+      <path d="M25 40h22v4h6v11h-5v5H24v-5h-5V45h6Z" fill="#fff1d4"/>
+      <path d="M22 27h9v3h3v12H21V31h1m20-4h9v4h2v11H40V30h2" fill="#f8f3e1"/>
+      <path d="M24 30h7v11h-9v-7h2m19-4h7v4h2v7h-11v-7h2" fill="#41666b"/>
+      <path d="M25 31h5v9h-7v-7h2m19-2h5v2h2v7h-8v-7h1" fill="#293b3a"/>
+      <path d="M24 30h4v4h-4m19-4h4v4h-4" fill="#fffdf1"/>
+      <path d="m31 40 5-4 6 4-6 5Z" fill="#e2a24d"/>
+    </g>
+  </defs>
+  <path d="M3 73c11-12 14-12 24-12s24 4 35 8c18 11 31 2 42-8 5-5 9-11 12-17" fill="none" stroke="#d6ac58" stroke-width="3"/>
+  <circle cx="14" cy="61" r="4" fill="#fff1d4" stroke="#41666b" stroke-width="2"/>
+  <circle cx="62" cy="69" r="4" fill="#fff1d4" stroke="#41666b" stroke-width="2"/>
+  <circle cx="104" cy="61" r="4" fill="#fff1d4" stroke="#41666b" stroke-width="2"/>
+  <circle cx="102" cy="15" r="11" fill="#fff1d4" stroke="#c9473d" stroke-width="2"/>
+  <path d="M102 8v8l5 3" fill="none" stroke="#41666b" stroke-width="2"/>
+  <g transform="translate(37 7) rotate(-18 36 38) scale(.73)">
+    <use href="#tail" transform="rotate(20 36 60)"/>
+    <use href="#legL" transform="rotate(-35 22 61)"/>
+    <use href="#legR" transform="rotate(32 50 61)"/>
+    <use href="#wingL" transform="rotate(-50 15 43)"/>
+    <use href="#wingR" transform="rotate(-40 60 43)"/>
+    <use href="#body"/>
+  </g>
+</svg>

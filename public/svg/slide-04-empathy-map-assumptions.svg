@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" shape-rendering="crispEdges" role="img" aria-labelledby="title description">
+  <title id="title">Empathy Map Illustration</title>
+  <desc id="description">Four separate pixel-art empathy illustrations surround the app's human avatar, labeled HKUST Student. The quadrants contain no category labels or phrases.</desc>
+  <defs>
+    <g id="app-human">
+      <ellipse cx="36" cy="69" rx="19" ry="3" fill="#344a3422"/>
+      <path d="M25 53h8v15H22v-5h3m14-10h8v15h-11v-5h3" fill="#575c60"/>
+      <path d="M21 38h29v22H21zM15 43h6v13h-6m35-13h6v13h-6" fill="#709988"/>
+      <path d="M20 15h30v28H20zM16 22h4v15h-4m34-15h4v15h-4" fill="#e7b58c"/>
+      <path d="M19 12h32v13H35v-5H19Z" fill="#d79a62"/>
+      <path d="M27 27h4v5h-4m13-5h4v5h-4" fill="#36433c"/>
+      <path d="M22 39h5v2h-5m19-2h5v2h-5" fill="#f3d3ad"/>
+      <path d="M29 44h14v2H29m-1 12h16v2H28" fill="#5f8777"/>
+      <path d="M47 46h12v14H47z" fill="#faf0d6"/>
+      <path d="M46 44h14v4H46" fill="#6e8676"/>
+    </g>
+  </defs>
+  <g fill="none" stroke="#7b8795" stroke-width="3">
+    <path d="M32 337.5h458m220 0h458"/>
+    <path d="M600 40v187.5m0 220v192.5"/>
+  </g>
+  <image href="empathy-thinks.svg" x="44" y="48" width="410" height="160" preserveAspectRatio="xMidYMid meet"/>
+  <image href="empathy-feels.svg" x="746" y="48" width="410" height="160" preserveAspectRatio="xMidYMid meet"/>
+  <image href="empathy-says-does.svg" x="44" y="467" width="410" height="160" preserveAspectRatio="xMidYMid meet"/>
+  <image href="empathy-pains.svg" x="746" y="467" width="410" height="160" preserveAspectRatio="xMidYMid meet"/>
+  <circle cx="600" cy="337.5" r="110" fill="#fffdf1" stroke="#293b3a" stroke-width="4"/>
+  <g transform="translate(514 230) scale(2.4)">
+    <use href="#app-human"/>
+  </g>
+  <text x="600" y="420" text-anchor="middle" fill="#243a57" font-family="monospace" font-size="17" font-weight="700" letter-spacing=".3">HKUST STUDENT</text>
+</svg>

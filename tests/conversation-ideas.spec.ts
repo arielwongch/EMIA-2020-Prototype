@@ -21,6 +21,21 @@ test('personal chat browses, rotates and sends preset interest conversations wit
  await page.getByRole('combobox',{name:'Conversation topic',exact:true}).selectOption('general:Study habits');await expect(page.locator('.topic-card')).toHaveCount(4);
 });
 
+test('personal chat can place an idea in the draft for editing before it is sent',async({page})=>{
+ const dialog=await openConversation(page);
+ await dialog.getByRole('combobox',{name:'Conversation topic',exact:true}).selectOption('interest:Photography');
+ const question=await dialog.locator('.topic-card p').first().innerText();
+ await dialog.getByRole('button',{name:'Edit and send',exact:true}).first().click();
+ await expect(page.getByRole('dialog')).toHaveCount(0);
+ const message=page.getByRole('textbox',{name:'Message'});
+ await expect(message).toHaveValue(question);
+ await expect(page.locator('.message.own')).toHaveCount(0);
+ const edited=question.replace(/\bgot you into photography\b/i,'made you love photos');
+ await message.fill(edited);
+ await page.getByRole('button',{name:'Send message',exact:true}).click();
+ await expect(page.locator('.message.own')).toHaveText(edited);
+});
+
 test('class starters use the exact shared section and face-to-face topics remain read-only',async({page})=>{
  const dialog=await openConversation(page,'p0-0');
  await dialog.getByRole('combobox',{name:'Conversation topic',exact:true}).selectOption(`class:${section}`);await expect(dialog).toContainText('You are both in this exact lecture section.');

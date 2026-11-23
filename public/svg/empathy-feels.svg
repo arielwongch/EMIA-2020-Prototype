@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 400 160" shape-rendering="crispEdges" role="img" aria-labelledby="title description">
+  <title id="title">Shy and Unsure Feeling</title>
+  <desc id="description">A pixel-art heart with a shy face and blush marks, representing uncertainty about being welcome.</desc>
+  <path d="M112 50h34V38h42V26h70v12h35v16h24v48h-20v17h-34v15h-72v-15h-34v-17h-25V54h-20z" fill="#c9473d"/>
+  <path d="M150 76h100v42h-100z" fill="#fff1d4"/>
+  <path d="M164 90h10v12h-10zm60 0h10v12h-10z" fill="#293b3a"/>
+  <path d="M189 108h26v6h-26z" fill="#d6ac58"/>
+  <path d="M132 100h12v6h-12zm124 0h12v6h-12z" fill="#efb2a1"/>
+  <path d="M83 47h8v26h-8zm234 0h8v26h-8zM101 26h12v8h-12zm202 0h12v8h-12z" fill="#d6ac58"/>
+  <path d="M190 125h16v5h-16z" fill="#41666b"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 400 160" shape-rendering="crispEdges" role="img" aria-labelledby="title description">
+  <title id="title">Anxious Thought</title>
+  <desc id="description">A pixel-art thought cloud with a question mark, representing worry about being rejected.</desc>
+  <path d="M67 52h31V38h42V26h67v12h35v14h24v48h-18v15h-50v12h-9v-12h-72v-14h-36V62H67z" fill="#41666b"/>
+  <path d="M75 58h27V44h42V32h57v12h35v14h24v35h-18v15h-50v12h-1v-12h-72V96h-36V68H75z" fill="#fffdf1"/>
+  <path d="M166 52h42v8h10v20h-10v8h-25v17h-10V73h25V66h-32z" fill="#c9473d"/>
+  <path d="M173 111h10v10h-10z" fill="#c9473d"/>
+  <path d="M53 109h8v8h-8zm-13 13h8v8h-8zm-13 13h8v8h-8z" fill="#d6ac58"/>
+  <path d="M270 47h9v9h-9zm13 16h8v8h-8z" fill="#dce8df" stroke="#41666b" stroke-width="2"/>
+</svg>

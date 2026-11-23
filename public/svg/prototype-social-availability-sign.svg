@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="450" viewBox="0 0 120 90" shape-rendering="crispEdges" role="img" aria-labelledby="title description">
+  <title id="title">Social Availability Signals in a Shared Space</title>
+  <desc id="description">Two students with green availability cards talk together. A third student with a red card works independently with a book. Pixel-art human figures on a transparent background.</desc>
+  <defs>
+    <g id="student-a">
+      <ellipse cx="36" cy="69" rx="19" ry="3" fill="#344a3422"/>
+      <path d="M25 53h8v15H22v-5h3m14-10h8v15h-11v-5h3" fill="#575c60"/>
+      <path d="M21 38h29v22H21zM15 43h6v13h-6m35-13h6v13h-6" fill="#849bba"/>
+      <path d="M20 15h30v28H20zM16 22h4v15h-4m34-15h4v15h-4" fill="#e7b58c"/>
+      <path d="M19 12h32v13H35v-5H19Z" fill="#d79a62"/>
+      <path d="M27 27h4v5h-4m13-5h4v5h-4" fill="#36433c"/>
+      <path d="M22 39h5v2h-5m19-2h5v2h-5" fill="#f3d3ad"/>
+      <path d="M29 44h14v2H29m-1 12h16v2H28" fill="#66829d"/>
+    </g>
+    <g id="student-b">
+      <ellipse cx="36" cy="69" rx="19" ry="3" fill="#344a3422"/>
+      <path d="M25 53h8v15H22v-5h3m14-10h8v15h-11v-5h3" fill="#575c60"/>
+      <path d="M21 38h29v22H21zM15 43h6v13h-6m35-13h6v13h-6" fill="#d6ac58"/>
+      <path d="M20 15h30v28H20zM16 22h4v15h-4m34-15h4v15h-4" fill="#b98669"/>
+      <path d="M16 14h38v17h-7V23H24v9h-8Z" fill="#293b3a"/>
+      <path d="M27 27h4v5h-4m13-5h4v5h-4" fill="#36433c"/>
+      <path d="M22 39h5v2h-5m19-2h5v2h-5" fill="#d7a07e"/>
+      <path d="M29 44h14v2H29m-1 12h16v2H28" fill="#c39b4e"/>
+    </g>
+    <g id="student-c">
+      <ellipse cx="36" cy="69" rx="19" ry="3" fill="#344a3422"/>
+      <path d="M25 53h8v15H22v-5h3m14-10h8v15h-11v-5h3" fill="#575c60"/>
+      <path d="M21 38h29v22H21zM15 43h6v13h-6m35-13h6v13h-6" fill="#709988"/>
+      <path d="M20 15h30v28H20zM16 22h4v15h-4m34-15h4v15h-4" fill="#e7b58c"/>
+      <path d="M19 12h32v13H35v-5H19Z" fill="#715e4d"/>
+      <path d="M27 27h4v5h-4m13-5h4v5h-4" fill="#36433c"/>
+      <path d="M22 39h5v2h-5m19-2h5v2h-5" fill="#f3d3ad"/>
+      <path d="M29 44h14v2H29m-1 12h16v2H28" fill="#5f8777"/>
+    </g>
+    <g id="green-card">
+      <path d="M37 41h8v9h-8z" fill="#72a98e" stroke="#fffdf1" stroke-width=".8"/>
+      <path d="M39 44h2v2h-2zm3 0h1v3h-1z" fill="#fffdf1"/>
+    </g>
+    <g id="red-card">
+      <path d="M37 41h8v9h-8z" fill="#c9473d" stroke="#fffdf1" stroke-width=".8"/>
+      <path d="M39 44h4v2h-4z" fill="#fffdf1"/>
+    </g>
+  </defs>
+
+  <g transform="translate(-6 17) scale(.78)">
+    <use href="#student-a"/>
+    <use href="#green-card"/>
+  </g>
+  <g transform="translate(35 17) scale(.78)">
+    <use href="#student-b"/>
+    <use href="#green-card"/>
+  </g>
+  <g transform="translate(76 17) scale(.78)">
+    <use href="#student-c"/>
+    <use href="#red-card"/>
+    <path d="M20 43h15v13H20z" fill="#41666b"/>
+    <path d="M22 45h11v9H22z" fill="#f1e7cf"/>
+    <path d="M24 47h7v1h-7zm0 2h6v1h-6zm0 2h7v1h-7z" fill="#41666b"/>
+    <path d="M18 42h2v13h-2z" fill="#d6ac58"/>
+  </g>
+
+  <path d="M29 13h15v1h2v6h-2v1h-5v3h-2v-3h-8v-1h-2v-6h2z" fill="#fffdf1" stroke="#41666b" stroke-width=".6"/>
+  <path d="M31 16h2v2h-2zm4 0h2v2h-2zm4 0h2v2h-2z" fill="#41666b"/>
+  <path d="M62 15h15v1h2v6h-2v1h-5v3h-2v-3h-8v-1h-2v-6h2z" fill="#fffdf1" stroke="#41666b" stroke-width=".6"/>
+  <path d="M64 18h2v2h-2zm4 0h2v2h-2zm4 0h2v2h-2z" fill="#41666b"/>
+</svg>
